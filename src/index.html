@@ -47,21 +47,21 @@
         Min. 8 znaków
     </div>
     <div class="row">
-        <div class="col">
+        <div class="col-md">
             <label for="inputCity" class="form-label">Miasto</label>
             <input type="text" class="form-control" id="inputCity">
         </div>
-        <div class="col">
+        <div class="col-md">
             <label for="inputState" class="form-label">Województwo</label>
             <select id="inputState" class="form-select">
-                <option selected>Wybierz...</option>
+                <option value="" disabled selected hidden>Wybierz...</option>
                 <option>śląskie</option>
                 <option>mazowieckie</option>
                 <option>dolnośląskie</option>
                 <option>małopolskie</option>
             </select>
         </div>
-        <div class="col">
+        <div class="col-md">
             <label for="inputZip" class="form-label">Kod pocztowy</label>
             <input type="text" class="form-control" id="inputZip">
         </div>
@@ -71,7 +71,7 @@
         <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck1">
             <label class="form-check-label" for="gridCheck1">
-                Akceptuję regulamin
+                Akceptuję <a href="index.html">regulamin</a>
             </label>
         </div>
     </div>
